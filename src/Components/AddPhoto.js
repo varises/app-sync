@@ -74,7 +74,7 @@ class AddPhoto extends Component {
                     <Form.Group >
                         <Form.Input label="Friendly name" type="text" placeholder="Title" value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
                         <Form.Input key={this.state.lastUpdate} label="File to upload" type="file" onChange={this.handleChange.bind(this, 'file')} />
-                        <Form.Button icon labelPosition="right" label="GraphQL mutation" type="submit" disabled={!isSubmitEnabled}><Icon name="upload" />Add Photo</Form.Button>
+                        <Form.Button icon labelPosition="right" label="GraphQL mutation" type="submit" disabled={!isSubmitEnabled}><Icon name="upload" />Add Photos</Form.Button>
                     </Form.Group>
                 </Form>
             </fieldset>
